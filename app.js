@@ -12,12 +12,6 @@ setInterval(() =>{
 
 } , 1000);
 
-const getTodayDate = () => {
-    let dt = new Date();
-    let text = '';
-    text =  '<br />' + 'year : ' + dt.getFullYear() + "<br />" + 'month : ' + dt.getMonth() + "<br />" + 'day : ' + dt.getDay();
-    return text;
-};
 document.querySelector('.today-date').innerHTML = getTodayDate();
 const joinPeaky = () => {
     let userName = prompt('enter your name please , sir/madam : ');
